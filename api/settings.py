@@ -68,9 +68,9 @@ REST_FRAMEWORK = {
 
 
 CORS_ALLOWED_ORIGINS = [
-    "localhost",
-    "eddygulled.pythonanywhere.com",
-    "okoa-web.netlify.app",
+    "http://localhost",
+    "https://eddygulled.pythonanywhere.com",
+    "https://okoa-web.netlify.app",
 ]
 
 CORS_ALLOWED_ORIGIN_REGEXES = [
