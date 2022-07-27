@@ -1,0 +1,6 @@
+*.sqlite3
+*.vscode
+migrations/
+__pycache__/
+.env/
+token.txt
