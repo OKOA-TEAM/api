@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-y#hpb2!dy0&)1#%jb1upl4ou#azlr=h%gg9uu3_y7-+g#62j%a
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost'
+    'localhost',
+    'eddygulled.pythonanywhere.com'
 ]
 
 
@@ -67,7 +68,9 @@ REST_FRAMEWORK = {
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://127.0.0.1:8000",
+    "localhost",
+    "eddygulled.pythonanywhere.com",
+    "okoa-web.netlify.app",
 ]
 
 CORS_ALLOWED_ORIGIN_REGEXES = [
